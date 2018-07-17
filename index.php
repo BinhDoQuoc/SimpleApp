@@ -7,5 +7,6 @@ else {
             time() + 60 * 60 * 24, "/");
     echo 'Cookie not found. Saving cookie again!';
 }
+	echo getenv('TIMES');
 ?>
   
